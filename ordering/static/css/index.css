@@ -2,24 +2,18 @@ a.btn {
     display:inline;
 }
 
-thead {
+#episode-list thead {
     color: #FFF;
     background-color: #333333;
 }
 
 #show-filter-select {
-    visibility: hidden;
+    display: none;
 }
 
 .episode {
     cursor: pointer;
     color: #FFF;
-}
-
-#footer-buttons {
-    width: 20%;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 .arrow {
@@ -78,6 +72,22 @@ thead {
     background-color: #be3915;
 }
 
+.black-lightning {
+    background-color: #464340;
+}
+
+.black-lightning:hover {
+    background-color: #383532;
+}
+
+.batwoman {
+    background-color: #692e69;
+}
+
+.batwoman:hover {
+    background-color: #470e47;
+}
+
 .no-color {
     background-color: transparent;
     color: #000;
@@ -85,4 +95,12 @@ thead {
 
 .no-color:hover {
     background-color: transparent;
+}
+
+nav.navbar {
+    margin-bottom: 1rem;
+}
+
+table.table {
+    margin: 0;
 }
